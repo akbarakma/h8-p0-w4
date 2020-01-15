@@ -5,7 +5,7 @@ function changeMe(arr) {
       console.log('');
   }
   for (let i = 0; i < arr.length; i++) {
-    console.log(i+1 + '. ' + arr[i][0] + ' ' + arr[i][1])
+    console.log(i+1 + '. ' + arr[i][0] + ' ' + arr[i][1] + ':')
     obj.firstName = arr[i][0];
     obj.lastName = arr[i][1];
     obj.gender = arr[i][2];
